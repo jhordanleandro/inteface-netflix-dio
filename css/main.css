@@ -1,0 +1,148 @@
+.member-footer {
+  color: grey;
+  margin: 20px auto 0;
+  max-width: 980px;
+  padding: 0 4%;
+}
+
+* {
+  letter-spacing: 0 !important;
+}
+
+div {
+  display: block;
+}
+
+.netflix-sans-font-loaded {
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+
+@media screen and (min-width: 841px) and (max-width: 1280px) and (orientation: landscape) body,
+  html {
+  font-size: 0.85vw;
+}
+
+@media screen and (min-width: 841px) and (max-width: 1280px) and (max-aspect-ratio: 4 / 3) body,
+  html {
+  font-size: 0.75vw;
+}
+
+body,
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #141414;
+  color: #fff;
+  cursor: default;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  font-size: 10px;
+  line-height: 1.2;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+:root {
+  --lt-color-gray-100: #f8f9fc;
+  --lt-color-gray-200: #f1f3f9;
+  --lt-color-gray-300: #dee3ed;
+  --lt-color-gray-400: #c2c9d6;
+  --lt-color-gray-500: #8f96a3;
+  --lt-color-gray-600: #5e636e;
+  --lt-color-gray-700: #2f3237;
+  --lt-color-gray-800: #1d1e20;
+  --lt-color-gray-900: #111213;
+  --lt-shadowDefault: 0 2px 6px -1px rgba(0, 0, 0, 0.16),
+    0 1px 4px -1px rgba(0, 0, 0, 0.04);
+  --lt-shadowActive: 0 0 8px -2px rgba(0, 0, 0, 0.1),
+    0 6px 20px -3px rgba(0, 0, 0, 0.2);
+  --lt-color-white: #fff !important;
+  --lt-color-black: #111213 !important;
+  --lt-color-transparent: rgba(255, 255, 255, 0) !important;
+  --lt-color-background-light: var(--lt-color-gray-100) !important;
+  --lt-color-background-default: var(--lt-color-gray-200) !important;
+  --lt-color-background-dark: var(--lt-color-gray-300) !important;
+  --lt-color-border-light: var(--lt-color-gray-200) !important;
+  --lt-color-border-default: var(--lt-color-gray-300) !important;
+  --lt-color-border-dark: var(--lt-color-gray-400) !important;
+  --lt-color-text-very-light: var(--lt-color-gray-500) !important;
+  --lt-color-text-light: var(--lt-color-gray-600) !important;
+  --lt-color-text-default: var(--lt-color-gray-700) !important;
+  --lt-color-text-dark: var(--lt-color-gray-800) !important;
+  --lt-color-overlay-default: #fff !important;
+  --lt-color-overlay-dark: #fff !important;
+  --lt-color-overlay-transparent: rgba(0, 0, 0, 0.1) !important;
+  --lt-shadow-website-overlay: 0 0 7px 0 rgba(0, 0, 0, 0.3) !important;
+}
+
+.billboard-row .billboard .hero-image-wrapper .static-image {
+  background-position: 50%;
+  background-size: cover;
+  bottom: 0;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  filter: alpha(opacity=100);
+  left: 0;
+  opacity: 1;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: opacity 0.4s cubic-bezier(0.665, 0.235, 0.265, 0.8) 0s;
+  width: 100%;
+}
+
+.billboard-row .billboard .hero-image-wrapper .image-layer {
+  z-index: 5;
+}
+
+img {
+  border: 0;
+}
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.billboard-row {
+  background-color: #000;
+  margin-bottom: 20px;
+  padding-bottom: 40%;
+  position: relative;
+  touch-action: pan-y;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pinning-header .main-header.menu-navigation.has-billboard:not(.solid) {
+  background-color: transparent;
+}
+
+.pinning-header .pinning-header-container .main-header {
+  height: 41px;
+  z-index: 2;
+}
+
+.pinning-header .main-header.menu-navigation {
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.7) 10%,
+    transparent
+  );
+}
+
+.pinning-header .main-header {
+  align-items: center;
+  display: flex;
+  font-size: 1.2rem;
+  padding: 0 4%;
+  position: relative;
+  transition: background-color 0.4s;
+  z-index: 2;
+}
+
+.icon-logoUpdate:before {
+  content: "\e5d0";
+}
